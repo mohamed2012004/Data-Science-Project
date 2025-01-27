@@ -1,19 +1,11 @@
-[2025-01-26 09:23:01,085: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2025-01-26 09:23:01,088: INFO: common: yaml file: params.yaml loaded successfully]
-[2025-01-26 09:23:01,091: INFO: common: yaml file: schema.yaml loaded successfully]
-[2025-01-26 09:23:23,291: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2025-01-26 09:23:23,293: INFO: common: yaml file: params.yaml loaded successfully]
-[2025-01-26 09:23:23,295: INFO: common: yaml file: schema.yaml loaded successfully]
-[2025-01-26 09:24:07,195: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2025-01-26 09:24:07,197: INFO: common: yaml file: params.yaml loaded successfully]
-[2025-01-26 09:24:07,200: INFO: common: yaml file: schema.yaml loaded successfully]
-[2025-01-26 09:24:07,209: INFO: common: created directory at: artifacts]
-[2025-01-26 09:24:48,872: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2025-01-26 09:24:48,873: INFO: common: yaml file: params.yaml loaded successfully]
-[2025-01-26 09:24:48,876: INFO: common: yaml file: schema.yaml loaded successfully]
-[2025-01-26 09:24:48,882: INFO: common: created directory at: artifacts]
-[2025-01-26 09:24:48,883: INFO: common: created directory at: artifacts/data_ingestion]
-[2025-01-26 09:24:50,343: INFO: 251335794: artifacts/data_ingestion/data.zip download! with following info: 
+[2025-01-27 08:33:49,378: INFO: main: welcome to our custom datascience projec]
+[2025-01-27 08:33:49,379: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-01-27 08:33:49,380: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-27 08:33:49,382: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-27 08:33:49,383: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-01-27 08:33:49,384: INFO: common: created directory at: artifacts]
+[2025-01-27 08:33:49,385: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-01-27 08:33:50,588: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
 Connection: close
 Content-Length: 23329
 Cache-Control: max-age=300
@@ -24,19 +16,22 @@ Strict-Transport-Security: max-age=31536000
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-XSS-Protection: 1; mode=block
-X-GitHub-Request-Id: D2E9:152564:2838241:29F38A0:67966FDF
+X-GitHub-Request-Id: 2AB6:38F271:10E731:11648C:6797B56A
 Accept-Ranges: bytes
-Date: Sun, 26 Jan 2025 17:24:47 GMT
+Date: Mon, 27 Jan 2025 16:33:47 GMT
 Via: 1.1 varnish
-X-Served-By: cache-mrs10540-MRS
+X-Served-By: cache-mrs10547-MRS
 X-Cache: MISS
 X-Cache-Hits: 0
-X-Timer: S1737912287.360552,VS0,VE397
+X-Timer: S1737995627.955013,VS0,VE408
 Vary: Authorization,Accept-Encoding,Origin
 Access-Control-Allow-Origin: *
 Cross-Origin-Resource-Policy: cross-origin
-X-Fastly-Request-ID: 5da1fda29581501fcd4ffe18a9ba1f20c4816b7f
-Expires: Sun, 26 Jan 2025 17:29:47 GMT
+X-Fastly-Request-ID: f90ada975e8b759d5ba910043b49e01f983a820f
+Expires: Mon, 27 Jan 2025 16:38:47 GMT
 Source-Age: 0
 
 ]
+[2025-01-27 08:33:50,599: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
