@@ -35,3 +35,56 @@ Source-Age: 0
 [2025-01-27 08:33:50,599: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
 
 x==========x]
+[2025-01-27 09:12:44,164: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-27 09:12:44,166: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-27 09:12:44,171: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-01-27 09:12:44,173: INFO: common: created directory at: artifacts]
+[2025-01-27 09:12:44,174: INFO: common: created directory at: artifacts/data_validation]
+[2025-01-27 09:13:28,934: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-27 09:13:28,937: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-27 09:13:28,942: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-01-27 09:13:28,944: INFO: common: created directory at: artifacts]
+[2025-01-27 09:13:28,946: INFO: common: created directory at: artifacts/data_validation]
+[2025-01-27 09:30:02,860: INFO: main: welcome to our custom datascience projec]
+[2025-01-27 09:30:02,861: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-01-27 09:30:02,863: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-27 09:30:02,864: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-27 09:30:02,866: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-01-27 09:30:02,867: INFO: common: created directory at: artifacts]
+[2025-01-27 09:30:02,867: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-01-27 09:30:02,868: INFO: data_ingestion: File already exists]
+[2025-01-27 09:30:02,872: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-01-27 09:30:02,873: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-01-27 09:30:02,876: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-27 09:30:02,878: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-27 09:30:02,880: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-01-27 09:30:02,881: INFO: common: created directory at: artifacts]
+[2025-01-27 09:30:02,881: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_validation_config']
+Traceback (most recent call last):
+  File "C:\Users\Mohammad\Downloads\Data Science Project\Data-Science-Project\main.py", line 22, in <module>
+    data_ingestion.initiate_data_validation()
+  File "C:\Users\Mohammad\Downloads\Data Science Project\Data-Science-Project\src\datascience\pipeline\data_validation_pipeline.py", line 13, in initiate_data_validation
+    data_validation_config = config.get_data_validation_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_validation_config'
+[2025-01-27 09:32:03,260: INFO: main: welcome to our custom datascience projec]
+[2025-01-27 09:32:03,260: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-01-27 09:32:03,262: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-27 09:32:03,263: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-27 09:32:03,265: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-01-27 09:32:03,265: INFO: common: created directory at: artifacts]
+[2025-01-27 09:32:03,266: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-01-27 09:32:03,266: INFO: data_ingestion: File already exists]
+[2025-01-27 09:32:03,270: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-01-27 09:32:03,272: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-01-27 09:32:03,274: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-27 09:32:03,274: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-27 09:32:03,277: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-01-27 09:32:03,277: INFO: common: created directory at: artifacts]
+[2025-01-27 09:32:03,279: INFO: common: created directory at: artifacts/data_validation]
+[2025-01-27 09:32:03,295: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
