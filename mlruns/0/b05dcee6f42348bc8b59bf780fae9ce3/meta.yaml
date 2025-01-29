@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Mohammad/Downloads/Data%20Science%20Project/Data-Science-Project/mlruns/0/b05dcee6f42348bc8b59bf780fae9ce3/artifacts
+end_time: 1738168215346
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b05dcee6f42348bc8b59bf780fae9ce3
+run_name: capable-whale-344
+run_uuid: b05dcee6f42348bc8b59bf780fae9ce3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738168209144
+status: 3
+tags: []
+user_id: Mohammad
