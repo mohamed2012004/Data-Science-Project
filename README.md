@@ -1,5 +1,8 @@
 # End to End Data Science Project
 
+This project predicts the quality of medical tests based on input numerical values. 
+
+
 ### Workflows--ML Pipeline
 
 1. Data Ingestion
